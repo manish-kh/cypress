@@ -1,0 +1,33 @@
+{
+  "name": "cyp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.25.0",
+    "cypress": "^12.14.0",
+    "faker": "^6.6.6",
+    "mocha-allure-reporter": "^1.4.0",
+    "npx": "^3.0.0",
+    "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "chai": "^4.4.1",
+    "chai-colors": "^1.0.1",
+    "cypress-dotenv": "^2.0.0",
+    "cypress-mailslurp": "^1.10.0",
+    "cypress-otp": "^1.0.3",
+    "cypress-real-events": "^1.11.0",
+    "cypress-wait-until": "^3.0.1",
+    "cypress-xpath": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "dotenv-cli": "^7.4.2",
+    "mochawesome": "^7.1.3"
+  }
+}
