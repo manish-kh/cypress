@@ -29,5 +29,6 @@ describe('Invalid Login Tests', function () {
     loginObj.elements.passwordErrorMsg()
       .should('be.visible')
       .should('have.text', 'Please enter a password.')
-  })
+  }
+)
 });
