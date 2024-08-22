@@ -9,7 +9,6 @@ cypress/fixtures/
 *.mp3
 cypress/videos/*.mp4
 package-lock.json/
-cypress/fixture/
 *.mp3
 cypress/downloads/
 .env
