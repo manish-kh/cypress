@@ -4,7 +4,6 @@ allure-results/
 videos/
 screenshots/
 node_modules/
-cypress/fixtures/
 *.mp4
 *.mp3
 cypress/videos/*.mp4

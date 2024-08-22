@@ -1,14 +1,22 @@
-class AppsTest {
+class LoginTest {
     elements = {
-      apps: () => cy.get('[data-cy="main-apps-menu"]'),
+      username: () => cy.get('[data-test="username"]'),
+      password: () => cy.get('[data-test="password"]'),
+      submit: () => cy.get('[data-test="login-button"]')
     };
+    enterUsername(name) {
+      this.clearAndType(this.elements.username, name);
+    }
+    enterPassword(password) {
+      this.clearAndType(this.elements.password, password);
+    }
 
-    appsClick() {
-        this.elements.apps().click(); // Invoke .click() to perform the click action
-      }
+    submitClick() {
+        this.elements.submit().click(); // Invoke .click() to perform the click action
+    }
     clearAndType(element, text) {
         element().clear().type(text);
       }
 }
 
-export default AppsTest;
+export default LoginTest;

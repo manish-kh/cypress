@@ -8,6 +8,8 @@ module.exports = defineConfig({
       e2e: {
             env: {
                   BASE_URL: process.env.BASE_URL,
+                  USERNAME: process.env.VALID_USERNAME,
+                  PASSWORD: process.env.VALID_PASSWORD
             },
             //"watchForFileChanges": false,
             defaultCommandTimeout: 10000,
