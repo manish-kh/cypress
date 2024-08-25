@@ -49,4 +49,5 @@ describe('Login Test cases', function () {
   it("Logout Test", function(){
     cy.logout();
   })
+  
 });
