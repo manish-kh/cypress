@@ -2,7 +2,8 @@ class LoginTest {
     elements = {
       username: () => cy.get('[data-test="username"]'),
       password: () => cy.get('[data-test="password"]'),
-      submit: () => cy.get('[data-test="login-button"]')
+      submit: () => cy.get('[data-test="login-button"]'),
+      error: () => cy.get('[data-test="error"]')
     };
     enterUsername(name) {
       this.clearAndType(this.elements.username, name);

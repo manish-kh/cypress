@@ -1,3 +1,8 @@
 {
-    "username1": "Manish_Khatiwada"
+    "username1": "Manish_Khatiwada",
+    "invalidUsername": "test",
+    "invalidPassword": "test",
+    "lockedOutUsername": "locked_out_user",
+    "problemUsername": "performance_glitch_user",
+    "errorUser": "error_user"
 }

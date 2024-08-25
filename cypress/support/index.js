@@ -4,3 +4,4 @@
 import './commands';
 import './login';
 import './logout';
+import '@shelex/cypress-allure-plugin';
